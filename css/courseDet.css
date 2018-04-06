@@ -1,0 +1,454 @@
+.headerCo
+{
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+.headerCo .coContent
+{
+    width:100%;
+    margin-bottom:
+}
+.coContent .coImage img
+{
+    border:2px solid #DDD;
+    -webkit-box-shadow: 10px 7px 7px #CCC;
+    -moz-box-shadow: 10px 7px 7px #CCC;
+    -o-box-shadow: 10px 7px 7px #CCC;
+    box-shadow: 10px 7px 7px #CCC;
+    width: 100%;
+    display: block;
+}
+/*********************** Image Cover Animation **************************/
+.coContent .coImage
+{
+    width: 100%;
+     animation:  waveLeft 1.4s 1 ease-in-out;
+}
+@keyframes waveLeft{
+    0%
+    {
+        opacity: .8;
+        transform: translateX(200px)
+        
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+/************************ *******************/
+.lSide .bgDiv
+{
+    background-color: #FFF;
+    width:550px;
+    margin-top: -48px;
+    position: relative;
+    border-radius: 20px
+}
+/********************* leftSide Animation *******************/
+ .lSide
+{
+     animation:  waveRight 1s 1 ease-in-out;
+}
+@keyframes waveRight{
+        0%
+    {
+        opacity: 0;
+        transform: translateX(-100px)
+        
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+/************************ *******************/
+.lSide .bgDiv .bgImg
+{
+    width:150px;
+    height:150px;
+    position: absolute;
+    top:31px;
+    right:-70px;
+    border-radius: 50%;
+    border:1px solid #DDD;
+}
+.lSide .bgDiv .bgImg img
+{
+    border-radius: 50%;
+    padding: 3px solid #FFF
+}
+
+.bgDiv .insInfo
+{
+    margin-right: 150px;
+    margin-top:100px;
+    padding: 40px
+}
+
+.rSide p
+{
+    max-width: 500px
+}
+.rSide .join
+{
+    width:240px;
+    height:40px;
+    font-size:20px
+}
+
+
+/********************** rSide Animation ****************************/ 
+ .rSide
+{
+     animation:  waveLeft 1s 1 ease-in-out;
+}
+@keyframes waveLeft{
+    0%
+    {
+        opacity:0;
+        transform: translateX(100px)
+        
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+/************************ *******************/
+
+.part
+{
+    background-color: #FFF;
+    margin-top: 50px;
+    height:200px;
+    margin-right: 0
+}
+.part p 
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "JF Flat Medium";
+    border:1px solid #FFF;
+    width : 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color : #DDD;
+    line-height: 80px;
+    overflow: hidden;
+    margin-top: 40px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s
+}
+
+.part:hover p
+{
+    -webkit-transform:scale(1.2,1.2)rotate(360deg);
+    -moz-transform:scale(1.2,1.2)rotate(360deg);
+    -o-transform:scale(1.2,1.2)rotate(360deg);
+    transform:scale(1.2,1.2)rotate(360deg);
+}
+.part h3
+{
+    background-color: #fde046;
+    padding:10px 0 10px 0 
+}
+.part ul {margin-top: 20px}
+.part ul li 
+{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+/********************** parts Animation ****************************/ 
+
+.coDuration,
+.coPrice,
+.coRequired
+{
+     animation:  waveLeft 1.4s 1 ease-in-out;
+}
+@keyframes waveLeft{
+    0%
+    {
+        opacity: 0;
+        transform: translateX(140px)
+        
+    }
+    50%
+    {
+        opacity: .4;
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+
+/************************ Start Popup *******************/
+
+/* Start Popup*/
+.popup 
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none
+
+}
+.popup ul li 
+{
+    font-size: 18px;
+    margin-bottom: 7px
+}
+.inner
+{
+    background-color: #FFF;
+    border:1px solid #CCC;
+    padding:40px;
+    width:1000px;
+    height:550px;
+    position: fixed;
+    right:50%;
+    margin-right:-500px;
+    top:50%;
+    margin-top: -400px;
+    border-radius: 20px;
+}
+.close
+{
+    width:40px;
+    height:40px;
+    background-color:#1e1e1e;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    right:10px
+}
+.close span
+{
+    position: absolute;
+    top:10px;
+    right:14px;
+    color:#FFF
+}
+.inner .accept
+{
+    width:200px;
+    font-size: 18px;
+    margin-top: 10px
+}
+/* End Popup */
+
+
+.popupTwo
+{
+    display: none;
+}
+.popupTwo .popContent
+{
+    margin-top: 120px
+}
+.popupTwo .popContent i 
+{
+    font-size: 100px;
+    margin-right: 45%;
+    color: green
+    
+}
+.popupTwo .popContent h4
+{
+    margin-top: 20px
+}
+
+
+
+@media(max-width:1024px){
+
+}
+
+
+@media(max-width:768px){
+    .coContent .coImage{
+        width:760px
+    }
+    
+.coContent .coImage,
+.coDuration,
+.coPrice,
+.coRequired,
+.coContent .rSide
+,.coContent .lSide
+{
+    animation: none
+}
+.popup 
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none
+
+}
+.popup ul li 
+{
+    font-size: 18px;
+    margin-bottom: 7px
+}
+.inner
+{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 40px;
+    width: 661px;
+    height: 578px;
+    position: fixed;
+    right: 50%;
+    margin-right: -331px;
+    top: 50%;
+    margin-top: -216px;
+    border-radius: 20px;    
+}
+.close
+{
+    width:40px;
+    height:40px;
+    background-color:#1e1e1e;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    right:10px
+}
+.close span
+{
+    position: absolute;
+    top:10px;
+    right:14px;
+    color:#FFF
+}
+.inner .accept
+{
+    width:200px;
+    font-size: 18px;
+    margin-top: 10px
+}
+
+}
+
+@media(max-width:360px){
+
+.coContent .coImage
+{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.part
+{
+    width:300px;
+    margin: auto
+}
+.lSide .bgDiv
+{
+    width: 340px;
+    height: 300px;
+    position: relative;
+    top: 115px;
+    right: -6px;
+}
+.lSide .bgDiv .bgImg
+{
+    position: absolute;
+    top: -47px;
+    right: 89px;
+}
+.lSide .insInfo
+{
+    position: absolute;
+    top: -17px;
+    right: -177px;
+        
+}
+.rSide
+{
+    position: relative;
+    margin-top: 120px;
+}
+.rSide .joinBtn 
+{
+text-align: center
+}
+.rSide h1
+{
+    text-align: center
+}
+.rSide p
+{
+    text-align: center
+}
+.inner
+{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 40px;
+    width: 350px;
+    height: 900px;
+    position: fixed;
+    right: 50%;
+    margin-right: -175px;
+    top: 30%;
+    margin-top: -216px;
+    border-radius: 20px;
+}   
+.popupTwo .popContent i
+{
+    margin-right: 33%  
+}
+.popupTwo .popContent h4 {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.coContent.coImage,
+.lSide,
+.rSide,
+.coDuration,
+.coPrice,
+.coRequired,
+.coContent .rSide
+,.coContent .lSide
+    {
+        animation: none
+    }
+
+}
+
+
+
+
+
+
+
+
+

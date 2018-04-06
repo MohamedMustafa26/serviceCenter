@@ -1,0 +1,41 @@
+/*
+ Dark Color : #1e1e1e
+ Yellow     : #fde046
+ Light      : #ebecf0
+*/
+
+.left-nav
+{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left:10px;
+}
+.left-nav span
+{
+    margin-left: 20px
+}
+section
+{
+    margin-top: 100px
+}
+
+
+.message textarea
+{
+    height:106px
+}
+
+.message button
+{
+    background-color:#fde046;
+    color: #1e1e1e;
+    border : 2px solid #ebecf0
+}
+@media(max-width:360px)
+{
+    .left-nav
+{
+  text-align: center;
+  margin-top: 20px
+}
+}

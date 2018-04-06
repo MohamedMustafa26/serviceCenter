@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+  <head>
+        <title>الإعدادات</title>
+        <meta charset="utf-8">
+      <!-- IE Compatibility Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/general.css" rel="stylesheet">    
+        <link href="css/courses.css" rel="stylesheet">     
+        <link href="css/profile.css" rel="stylesheet">     
+        <link href="css/contact.css" rel="stylesheet">  
+        <link rel="icon" href="img/logo.png">
+        <script src="js/html5shiv.min.js"></script>
+
+  </head>
+  
+  <body>
+      
+    <div class="container-fluid">
+      <nav>
+            <div class="row">
+                <!-- Right Side NAV -------------------List Items -------------------- -->
+              <div class="right-nav col-md-4">
+                <div class="center-logo">
+                     <a href="General.html"><img src="img/logo.png" alt="center logo"></a>
+                </div>
+            </div>
+                <!-- left Side --------------------------Contact Button----------------------------->
+           <div class="left-nav">
+                <div class="contact-us">
+                   <a href="contact.html"><button class="btn btn-danger contact">تواصل معنا</button></a>
+                </div>
+            </div>
+           </div>
+      </nav>
+        <section class="content">
+          <div class="row">  
+              <div class="left-list col-md-3 col-sm-2 col-xs-12">
+                  <div class="list-bigCont">
+                      <div class="list-cont">
+                        <div class="items ">
+                            <a href="Profile.html"><i class="fa fa-angle-right fa-x"></i> الكورسات</a>
+                        </div>
+                        <div class="items active">
+                            <a href="setting.html"><i class="fa fa-angle-right fa-x"></i> الإعدادت</a>
+                        </div>
+                        <button class="btn btn-danger logOut">تسجيل الخروج</button>
+                      </div>
+                  </div>
+              </div>
+              
+              
+              
+              <div class="right-courses col-md-9 col-sm-10 col-xs-12 text-left">
+                   <form class="row" role="form">
+                       <div class="form-group setting-input col-lg-6 col-lg-push-3 formContent">
+                           <input autofocus required autocomplete="on" class="form-control input-lg" type="password" placeholder="الباسورد القديم..">
+                           <input required class="form-control input-lg"type="password"placeholder="الباسورد الجديد..">
+                           <input required class="form-control input-lg"type="password"placeholder="أعد كتابة الباسورد الجديد..">
+
+                           <button class="btn btn-primary start">تسجيل دخول</button>    
+                       </div>
+                   </form>
+              </div>
+              
+          </div>
+         </section>
+    </div>
+    
+        <!-- Start Popup -->
+          <div class="container-fluid">
+            <div class="popup">
+                <div class="inner">
+                  <div class="close"><span>X</span></div>
+                    <div class="popContent text-center">
+                        <h2>تأكيد تسجيل الخروج ؟</h2>
+                        <button class="btn input-lg btn-danger">نعم</button>
+                        <button class="btn input-lg btn-success noChoise">لا</button>
+                    </div>
+
+                 </div>
+              </div>
+          </div>
+        <!-- End Popup -->
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>

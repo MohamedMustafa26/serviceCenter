@@ -1,0 +1,371 @@
+/* Left List */
+.list-bigCont
+{
+    background-color: rgba(255,255,255,0.5);
+    width: 580px;
+    height:580px;
+    border-radius: 50%;
+    position: relative;
+}
+.list-cont
+{
+    position: absolute;
+    top:260px;
+    right:160px
+}
+.list-cont .items
+{
+    border:1px solid #fde046;
+    margin-bottom: 5px;
+    width:300px;
+    height:30px;
+}
+.logOut 
+{
+    width:400px;
+    text-align: right;
+    margin-top: 10px
+}
+.list-cont .items:hover,
+.list-cont .active
+{
+    background-color:#fde046;
+    margin-bottom: 5px;
+    
+}
+.left-list a 
+{
+    color : #1e1e1e;
+    text-decoration: none
+}
+.list-bigCont .logOut
+{
+    
+}
+
+/* End Left List */
+.select
+{
+    background-color: #FFF;
+    margin-bottom: 30px;
+    margin-left: 110px
+}
+.select a 
+{
+    color :#000
+}
+.divs
+{
+    height:30px;
+    background-color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 3px 3px #BBB;
+    -moz-box-shadow: 3px 3px 3px #BBB;
+    -o-box-shadow: 3px 3px 3px #BBB;
+    box-shadow: 3px 3px 3px #BBB;
+
+    height:40px;
+    font-size: 20px;
+    line-height: 1.9
+}
+
+.divs:hover ,
+.divs.active
+
+{
+    background-color: #fde046;
+}
+
+
+.courses
+{
+    margin-top: 40px;
+}
+
+/***************** Courses Animation ***********************/
+.control .courses
+{
+    animation:  waveLeft 1.5s 1 ease-in-out;
+
+}
+@keyframes waveLeft{
+        0%
+    {
+        opacity: 0;
+        transform: translateX(1000px)
+        
+    }
+    50%
+    {
+        opacity: .3;
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+ 
+/*******************   PopUp ***********************/ 
+/* Start Popup*/
+.popup
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none
+}
+.popContent
+{
+    margin-top: 10px
+}
+.popContent button
+{
+    width:100px;
+    margin-top: 20px
+}
+.popup ul li 
+{
+    font-size: 18px;
+    margin-bottom: 7px
+}
+.inner
+{
+    background-color: #FFF;
+    border:1px solid #CCC;
+    padding:40px;
+    width:500px;
+    height:300px;
+    position: fixed;
+    right:50%;
+    margin-right:-250px;
+    top:70%;
+    margin-top: -230px;
+    border-radius: 20px;
+}
+.close
+{
+    width:40px;
+    height:40px;
+    background-color:#1e1e1e;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    right:10px
+}
+.close span
+{
+    position: absolute;
+    top:10px;
+    right:14px;
+    color:#FFF
+}
+.inner .accept
+{
+    width:200px;
+    font-size: 18px;
+    margin-top: 10px
+}
+/* End Popup */
+
+
+
+/**************************** hidden class **************************/
+.setting
+{
+    margin-top: 40px;
+    background-color: #FFF;
+    margin-top:30px
+}
+.formContent
+{
+    text-align: center
+}
+ .setting-input
+{
+    margin-top: 50px
+}
+ .setting-input input
+{
+    margin-bottom: 10px;
+}
+
+.setting-input button
+{
+    margin-right:auto
+}
+
+
+@media(max-width:361px){
+/* popup*/
+.inner
+{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 40px;
+    width: 350px;
+    height: 900px;
+    position: fixed;
+    right: 50%;
+    margin-right: -175px;
+    top: 30%;
+    margin-top: 0px;
+    border-radius: 20px;
+} 
+/*Circle */
+.list-bigCont
+{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height:200px;
+    border-radius: 0;
+    position: relative;
+}
+.list-cont
+{
+    position: absolute;
+    top:30px;
+    right:80px
+}
+.list-cont .items
+{
+    border:1px solid #fde046;
+    margin-bottom: 5px;
+    width:150px;
+    height:30px;
+}
+.list-cont button
+{
+    width:150px  
+}
+    /**/
+.select
+{
+    margin-top: 50px;
+}
+    
+.divs
+{
+    height:40px;
+    width:200px;
+    background-color: #FFF;
+    margin-left: -21px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 3px 3px 3px #BBB;
+    -moz-box-shadow: 3px 3px 3px #BBB;
+    -o-box-shadow: 3px 3px 3px #BBB;
+    box-shadow: 3px 3px 3px #BBB;
+    font-size: 14px;
+    line-height: 1.9;
+}
+    .setting-input button
+{
+    margin-right:auto
+}
+.active
+    {
+     background-color: #fde046;
+
+    }
+}
+@media(max-width:768px){
+/* Contact Button */
+.left-nav .contact-us button
+{
+    position: relative;
+    top: 5px;
+    right: 113px;
+}
+/* Popup*/
+
+.popup
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none
+
+}
+.popup ul li 
+{
+    font-size: 18px;
+    margin-bottom: 7px
+}
+.inner
+{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 40px;
+    width: 346px;
+    height: 227px;
+    position: fixed;
+    right: 50%;
+    margin-right: -172px;
+    top: 50%;
+    margin-top: -930px;
+    border-radius: 20px;    
+}
+.close
+{
+    width:40px;
+    height:40px;
+    background-color:#1e1e1e;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    right:10px
+}
+.close span
+{
+    position: absolute;
+    top:10px;
+    right:14px;
+    color:#FFF
+}
+.inner .accept
+{
+    width:200px;
+    font-size: 18px;
+    margin-top: 10px
+}
+/*Circle */
+.list-bigCont
+{
+    background-color: rgba(255,255,255,0.5);
+    width: 300px;
+    height: 155px;
+    border-radius: 0;
+    position: relative;
+    right:20px;
+    margin-bottom: 10px
+}
+.list-cont
+{
+    position: absolute;
+    top:30px;
+    right:80px
+}
+.list-cont .items
+{
+    border:1px solid #fde046;
+    margin-bottom: 5px;
+    width:150px;
+    height:30px;
+}
+.list-cont button
+{
+    width:150px  
+}
+    /**/
+}

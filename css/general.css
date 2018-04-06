@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body
+{
+    background-color : #ebecf0;
+    font-family: "JF Flat";
+    perspective: 600px
+}
+
+
+/********************************* Contact us Button  ********************************/
+.contact-us button a
+{
+    color: aliceblue
+}
+.contact-us button a:hover
+{
+    text-decoration: none
+}
+
+/********************************* End Contact us Button ****************************/
+
+
+.right-nav
+{
+    float: right;
+    margin-right: 100px
+}
+
+.left-nav .contact-us
+{
+    margin-right:900px
+}
+.parent
+{
+    float: right;
+    background-color:#1e1e1e;
+    width:600px;
+    height:600px;
+    border-radius: 50%;
+    position:relative;
+    top:20px;
+    right:-260px;
+}
+/************************** Start Shape *****************/
+.shape
+{
+    animation: floatleft 1.2s 1 ease-in-out;
+    position : relative;
+    float: right;
+    right: 0;
+}
+
+@keyframes floatleft{
+        0%
+    {
+        opacity: 0;
+        right:-200px
+        
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.parent .icons
+{
+    position: absolute;
+    right:290px;
+    top:220px;
+}
+.parent .icons li
+{
+    list-style: none;
+    padding: 10px;
+}
+.parent .icons li a
+{
+    color: #636363;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+.parent .icons li a:hover
+{
+    color: #ebecf0;
+    
+}
+
+
+.child
+{
+    background-color:#fde046;
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    position:absolute;
+    top:85px;
+    right:400px;
+}
+.twochild
+{
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    background: url("../img/img-elearning.png");
+    position: absolute;
+    top: 136px;
+    right: 451px;
+}
+.twochild:hover
+{
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    background: url("../img/img-elearning.png");
+    position: absolute;
+    top: 136px;
+    right: 451px 
+}
+/******************************** Welcome Text ****************************/
+.content-left
+{
+    position: relative;
+    top:50px;
+    left: 150px;
+    float: left;   
+    animation:  floatright 1.2s 1 ease-in-out;
+}
+@keyframes floatright{
+        0%
+    {
+        opacity: 0;
+        left:-200px
+        
+    }
+
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+    
+}
+.content-left h1
+{
+    font-size: 60px
+}
+.content-left h2
+{
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 1.5
+}
+
+.content-left .form-group
+{
+    margin-top: 50px
+}
+.content-left input 
+{
+    margin-top: 10px
+}
+.content-left .btn-primary
+{
+    background-color: #fde046;
+    border: none;
+    width:200px;
+    height:44px;
+    font-size: 18px;
+    color: #1e1e1e;
+    font-family: "JF Flat Medium";
+    margin-top:20px
+}
+.content-left span
+{
+    display: block;
+    margin-top: 10px;
+}
+.content-left span.forget-pass  
+{
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+.content-left span.forget-pass:hover
+{
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline
+}
+
+.content-left .btn-success
+{
+    border: none;
+    width:200px;
+    height:44px;
+    font-size: 18px;
+    background-color:#1e1e1e;
+    color:#ebecf0;
+    font-family: "JF Flat Medium";
+}
+
+
+/* ---------------------------------- Content Down --------------------*/
+.content-down
+{
+    position: relative;
+    top:50px;
+    left: 230px;
+    float: left;
+    padding: 0;
+    margin:0;
+    display: none;
+}
+.content-down form.formTwo
+{
+    display: none;
+    position: relative;
+    top:1px
+}
+
+.content-down input
+{
+    width: 400px;
+    margin-bottom: 10px
+}
+.content-down select
+{
+    width:400px;
+    height:40px;
+    display: block;
+    margin-bottom: 5px
+    
+}
+.content-down textarea
+{
+    width:400px
+}
+.content-down label
+{
+    text-align: center;
+    position: relative;
+    left: 188px;
+    margin: 18px 0 5px;
+    color: #636363;
+}
+.content-down select.chap
+{
+    margin-left:400px
+}
+.content-down button
+{
+    display: block;
+    width:400px;
+    height:40px;
+    background-color: #fde046;
+    color: #1e1e1e;
+    border:none;
+    font-family: "JF Flat Medium"
+}
+/*******************************************/
+.content-down .btn-danger
+{
+    width:60px;
+    height:30px;
+    background-color: #fde046;
+    margin-bottom: 10px;
+    border:none
+}
+/****************************************  Sign Up Button ************************/
+ button.endRegister a 
+{
+    color: #1e1e1e;
+}
+/**************************************************Contact Us Button *************/
+.left-nav .contact-us button
+{
+    position: relative;
+    top:30px;
+    right:250px;
+    background-color:#1e1e1e;
+    color:#ebecf0;
+    border:none;
+    width:150px;
+    height:40px;
+    font-size:16px
+}
+
+.contact
+{
+    width:150px
+}
+
+/******************************************* Start Media ************************/
+@media(max-width:1024px){
+    .shape{
+        animation: none;
+    }
+    .content-left{
+        animation: none;
+    }
+.left-nav .contact-us button
+    {
+    position: relative;
+    top: 30px;
+    right: -58px;
+    }
+}
+
+
+@media(max-width:768px){
+.shape
+{
+    width:100%;
+    height:100%
+}
+.left-nav .contact-us button {
+    position: relative;
+    top: 5px;
+    right: 222px;
+}
+.left-nav .contact-us
+{
+    margin-right:-200px
+}
+.content-left
+{
+    position: relative;
+    top:100px;
+    left:-110px;
+    float: left;
+}
+.content-left h1
+{
+    font-size: 60px
+}
+.content-left h2
+{
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 1.5
+}
+.content-down
+{
+    position: relative;
+    top:100px;
+    right: 100px;
+    float: left;
+}
+.content-down .formTwo
+    {
+        position: relative;
+        top:100px;
+        right: 400px;
+    }
+
+}
+
+@media(max-width:320px){
+.left-nav .contact-us a
+{
+    position: relative;
+    top:px;
+    right:400px;
+    background-color:#1e1e1e;
+    color:#ebecf0;
+    border:none;
+    width:150px;
+    height:40px;
+    font-size:16px
+}
+    
+.content-left
+{
+    position: relative;
+    top:100px;
+    left:-150px;
+    float: left;
+    width:100%;
+}
+.content-left h1
+{
+    font-size: 60px
+}
+.content-left h2
+{
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 1.5
+}
+    
+.content-down
+{
+    position: relative;
+    top:100px;
+    left: -290px;
+    float: left;
+}
+    
+}
+
+
+
+
+
+
